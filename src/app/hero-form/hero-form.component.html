@@ -38,6 +38,8 @@
           [(ngModel)]="model.email"
           name="email"
           #email="ngModel"
+          [email]="true"
+          required
         />
         <div [hidden]="email.valid || email.pristine" class="alert alert-danger" >
          Valid Email is required
