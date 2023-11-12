@@ -14,7 +14,7 @@ export class HeroFormComponent {
     'Super Hot',
     'Weather Changer',
     'Super Fast',
-    'Super Tall',
+    'Super Tall'
   ];
 
   model = new Hero(
